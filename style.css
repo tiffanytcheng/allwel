@@ -1,0 +1,177 @@
+body p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.we-believe {
+  box-sizing: border-box;
+  background-color: #0074bf;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px;
+  text-transform: uppercase;
+  width: 13%;
+  position: relative;
+  left: 44%;
+}
+
+.homepage-text {
+  line-height: 36px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: Lato;
+  font-size: 20px;
+  color: #484848;
+}
+
+.cta-p {
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.cta-button {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cta-button-sm {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0 0 0 50px !important;
+}
+
+@media only screen and (max-width: 480px) {
+.cta-button-sm {
+  margin: 25px 0 20px 0 !important;
+}
+}
+
+.slider-h1 {
+  font-family: Montserrat;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.slider-p {
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff
+}
+
+.homepage-description {
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #949494;
+}
+
+.a-link {
+  text-decoration: underline;
+}
+
+.sidebarServices h3 {
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: 21px;
+  background-color: #0077b8;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+	margin-left: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+.sidebarServices h3 {
+margin-left: 0px;
+}
+.sidebarServiceslist ul {
+margin-left: 0px !important;
+}
+}
+
+.sidebarServiceslist {
+margin-top: -10px;
+}
+
+.sidebarServiceslist ul {
+    margin-left: 40px;
+    background-color: #EDEDED;
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+}
+
+.sidebarServiceslist li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+.sidebarServiceslist li a {
+    color: #151515;
+}
+
+.sidebarCTA {
+	background-color: #a0a0a1;
+	padding: 40px;
+	margin-left: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+.sidebarCTA {
+margin-left: 0 !important;
+}
+}
+
+.sidebarCTA h3 {
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.sidebarCTAbtn {
+	background-color: #0077b8;
+	padding: 6px;
+	display: flex;
+	justify-content: center;
+}
+
+.sidebarCTAbtn a {
+	color: #ffffff;
+	padding: 10px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.featuredBox {
+  background-image: url('/wp-content/uploads/2017/06/hands-bw.jpg');
+  background-position: center;
+  width: 100%;
+	opacity: 0.9;
+  background-size: cover;
+  padding: 30px 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.featuredBox h2 {
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px 0 20px 0;
+}
+
+.featuredBox a {
+  padding: 5px 16px;
+  background-color: #FFF;
+  opacity: 0.75;
+  margin: 0 15px 0 25px;
+}
