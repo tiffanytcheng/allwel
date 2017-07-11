@@ -3,6 +3,139 @@ body p {
   line-height: 30px;
 }
 
+/* Homepage Slider 1 */
+
+.homeSlider1 {
+   background-image: url('/wp-content/uploads/2017/07/allwel-slider-image1.jpg');
+    height: 425px;
+    width: 55%;
+    background-size: cover;
+    float: right;
+}
+
+.sliderText {
+    background-color: #0077b8;
+    padding: 12px;
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    margin: 3%;
+}
+
+.sliderTextInside {
+   background-color: #0077b8;
+   border: 12px solid #fff;
+   padding: 50px 20px 32px 40px;
+}
+
+.sliderText h2 {
+   color: #FFF;
+   font-family: 'Montserrat';
+   font-size: 32px;
+   letter-spacing: 0.5px;
+   line-height: 36px;
+}
+
+.desc {
+   color: #FFF;
+   font-family: 'Lato', sans-serif;
+   margin: 0px 20px 6px 40px;
+   letter-spacing: 0.5px;
+}
+
+.sliderText img {
+   margin-left: 40px;
+   height: 35px;
+   width: auto;
+}
+
+/* Homepage Slider 2 */
+
+.homeSlider2 {
+   background-image: url('/wp-content/uploads/2017/07/allwel-slider-image2.jpg');
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+}
+
+.sliderText2 {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 17px;
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    opacity: 0.9;
+    border: 12px solid #d2d2d2;
+    margin: 30px;
+}
+
+.sliderText2 h2 {
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+}
+
+.sliderTextInside2 {
+    background-color: #fff;
+    opacity: 0.8;
+    border: 12px solid #fff;
+    padding: 70px 100px 50px 100px;
+}
+
+.sliderText2 p {
+    color: #000;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.sliderText2 img {
+    margin-left: 45%;
+    height: auto;
+    width: auto;
+}
+
+/* Homepage Slider 3 */
+
+.homeSlider3 {
+   background-image: url('/wp-content/uploads/2017/07/allwel-slider-image3.jpg');
+    height: 450px;
+    width: 50%;
+    background-size: cover;
+    float: left;
+}
+
+.sliderText3 {
+    display: flex;
+    align-items: center;
+    background-color: #0077b8;
+    padding: 12px;
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    margin: 2.5% 0 2.5% 45%;
+}
+
+.sliderText3 h2 {
+   color: #FFF;
+   font-family: 'Montserrat';
+   font-size: 32px;
+   letter-spacing: 0.5px;
+   line-height: 36px;
+}
+
+.sliderText3 img {
+   margin-left: 40px;
+   height: 35px;
+   width: auto;
+}
+
+/* Homepage Styles */
+
 .we-believe {
   box-sizing: border-box;
   background-color: #0074bf;
@@ -70,6 +203,8 @@ body p {
 .a-link {
   text-decoration: underline;
 }
+
+/* Interior Sidebar Styles */
 
 .sidebarServices h3 {
   font-family: Montserrat;
@@ -169,6 +304,8 @@ margin-top: -10px;
    list-style: none;
 }
 
+/* Mobile Styles */
+
 @media only screen and (max-width: 480px) {
 .sidebarCTA {
 margin-left: 0 !important;
@@ -202,13 +339,13 @@ margin-left: 0 !important;
   margin: 25px 0 20px 0 !important;
 }
 }
-@media only screen and (min-width: 481px) and (max-width: 746px) {
+@media only screen and (min-width: 414px) and (max-width: 746px) {
 .cta-p {
  padding-bottom: 35px;
 }
 .we-believe {
- width: 28%;
- left: 36%;
+ width: 36%;
+ left: 34%;
 }
 .featuredBoxList {
  display: flex;
@@ -218,5 +355,29 @@ margin-left: 0 !important;
  display: flex;
  flex-direction: column !important;
  align-items: center;
+}
+.sidebarServices {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (max-width: 736px){
+.homeSlider1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34rem;
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+}
+
+.sliderText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;    
+    width: 89%;
+    opacity: 0.8;
 }
 }
